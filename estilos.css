@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(223, 220, 220);
+}
+
+.title{ 
+    font-size: 2.8em;
+    color: black;
+    margin-left: 2.5em;
+
+}
+.cuadro{
+    border-radius: 3%;
+}
+.biblia{
+    width: 100vw; height: 40vw;
+    padding: 50px 0em 50px 0em;
+}
+.comp{
+    width: 10vw;
+
+}
+.comp:hover{
+    background-color: rgb(0, 6, 10);
+}
+
+
+#principal{
+    font-size: 4.5em;
+}
+
+#titulos{
+    border: 2px solid black;
+    width: 70vw;
+    margin: auto;
+    padding: auto;
+
+}
+.ministerio{
+    margin-left: 13em;
+    font-size: 1.5em;
+}
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 80px 1em 80px 1em;
+    border-radius: 3%;
+    transition: 1s;
+}
+.cards:hover{
+    background-color: rgb(192, 221, 247);
+}
+#cards-container{
+  background-color: aqua; 
+  width: 85%;
+  margin: auto;
+  margin-top: 1.5em;
+  border: 2px solid black
+  border-radius 5px;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+.border{
+    border: 2px solid black;
+    width: 70vw;
+    margin: auto;
+    padding: auto;
+
+
+}
